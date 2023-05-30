@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.39">
+<file name="D:\Aditya\Javavscode\demo\src\main\java\com\example\App.java">
+</file>
+<file name="D:\Aditya\Javavscode\demo\src\test\java\com\example\demomaven.java">
+<error line="12" column="1" severity="error" message="Extra separation in import group before &apos;org.openqa.selenium.Alert&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="12" column="8" severity="error" message="Unused import - org.openqa.selenium.Alert." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="22" column="1" severity="error" message="Extra separation in import group before &apos;io.github.bonigarcia.wdm.WebDriverManager&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="22" column="1" severity="error" message="Wrong order for &apos;io.github.bonigarcia.wdm.WebDriverManager&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="24" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="24" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="24" column="14" severity="error" message="Name &apos;demomaven&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="26" column="27" severity="error" message="Name &apos;_pathFlightList&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="44" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="44" column="24" severity="error" message="Method name &apos;GetSecondCheapestFlight&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="51" column="71" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="60" column="70" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="65" column="75" severity="error" message="&apos;30&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="68" column="30" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="76" column="28" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="77" column="28" severity="error" message="Unnecessary parentheses around expression." source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="88" column="9" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="91" column="71" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="98" column="9" severity="error" message="Usage of type &apos;HashMap&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="98" column="35" severity="error" message="Name &apos;PriceMap&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="122" column="20" severity="error" message="Usage of type &apos;HashMap&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="122" column="46" severity="error" message="Method name &apos;SortByValue&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="122" column="58" severity="error" message="Usage of type &apos;HashMap&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="135" column="9" severity="error" message="Usage of type &apos;HashMap&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck"/>
+<error line="154" column="25" severity="error" message="Method name &apos;ScrollToEnd&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+</checkstyle>
